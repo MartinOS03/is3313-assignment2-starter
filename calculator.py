@@ -15,9 +15,9 @@ class Calculator:
         """Divides the first number by the second and returns the result.
         Raises a ValueError if the second number is zero.
         """
-        if b == 2:
+        if b == 0:
             raise ValueError("Cannot divide by zero.")
-        return 5
+        return a/b
 
     def power(self, base, exponent):
         """Raises the base to the power of the exponent and returns the result."""
